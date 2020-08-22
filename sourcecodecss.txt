@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: box-border;
+    scroll-behavior: smooth;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #00afc2;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+.logo {
+    color: #f7f8fa;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.stylemenu {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.9s;
+
+}
+.stylemenu li{
+    list-style: none;
+
+}
+.stylemenu a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.li1:hover, .li2:hover, .li3:hover{
+    background-color: #160063;
+}
+.profileimage{
+    display: flex;
+    justify-content: left;
+    float: left;
+    position: relative;
+    top: 205px;
+    left: 40px;
+    margin: 10px
+}   
+.intro{
+    display: flexbox;
+    font-size: 25px;
+    position: relative;
+    top: 285px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    
+}
+.about{
+    display: flexbox;
+    justify-content: space-around;
+    float: right;
+    margin-top: 35px;
+    padding: 35px;
+    position: relative;
+    top: 300px;
+    text-align: center;
+    background-color: #D5DBDB ;
+    color: #2C3E50 ;
+    font-family: 'Rubik Mono One', sans-serif;
+
+}
+.profile1{
+    position: relative;
+    right: 10px;
+
+}
+
+.profile2 {
+    float: left;
+    margin-right: 20px;
+}
+.work{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+    padding: 93px;
+    position: relative;
+    top: 300px;
+    text-align: left;
+    background-color: white ;
+    color: black ;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.profile3 {
+    float: right;
+    margin-right: 20px;
+}
+.contact{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+    padding: 100px;
+    position: relative;
+    top: 300px;
+    text-align: left;
+    background-color: #D5DBDB ;
+    color: #2C3E50 ;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.footer{
+    text-align: center;
+    justify-content: space-around;
+    width: 97%;
+    padding: 20px;
+    background-color: #2E86C1;
+    color: black;
+    position: absolute;
+    top: 2332px;
+    font-family: 'Fredoka One', cursive;
+}
